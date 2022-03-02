@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+        <center>
+			<h1>CyberMiner</h1>
+			<form method="POST" action="/searchWordInWebPage">
+				<div class="form-group">
+					<input style="height: 30px; width: 30%;" type="text" value="" name="search_box" autofocus/>
+
+				<input style="height: 30px; width: 8%; font-size: 20px; text-align: center;" class="btn btn-primary" type="submit" name="search" value="Go" />
+                </div>
+            </form>
+		</center>
+
+  <br><br>
+{% endblock %}
